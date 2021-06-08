@@ -5,3 +5,8 @@ Recriação do snake game
 * JS
 * CSS
 * HTML
+
+### Imagens
+
+![](login.png)|![](snake.png)
+![](planos.png)|![](perdeu.png)
