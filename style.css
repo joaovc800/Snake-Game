@@ -1,0 +1,65 @@
+body{
+    height: 95vh;
+    width: 95vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color:white;
+    color: rgb(52, 165, 52);
+}
+
+.over{
+    color: #f00;
+    font-size: 35px;
+    font-family: "Arial";
+    position: relative;
+    bottom: 280px;
+    animation: left 0.5s;
+}
+
+.continue{
+    color: #f00;
+    font-size: 35px;
+    font-family: "Arial";
+    position: relative;
+    bottom: 250px;
+    animation: left 0.5s;
+}
+
+.btn{
+    color: #000;
+    font-size: 30px;
+    font-family: "Arial";
+    position: relative;
+    bottom: 150px;
+    animation: fade 0.5s;
+    background-color: transparent;
+    border: 1px solid;
+    padding: 10px;
+}
+.btn:hover{
+    background-color: #0f0;
+    color: #fff;
+    transition: background-color,color .5s;
+}
+@keyframes left {
+    from{
+        transform: translateX(-1000px) rotate(360deg);
+    }
+    to{
+        transform: translateX(0);
+    }
+    
+}
+
+@keyframes fade {
+    from{
+        filter: blur(100px);
+    }
+    to{
+        filter: blur(0);
+    }
+    
+}
+
